@@ -1,0 +1,59 @@
+Feature 01: cap-shape
+    [Type: Categories]  --  bell=b, conical=c, convex=x, flat=f, knobbed=k, sunken=s
+  
+Feature 02: cap-surface
+    [Type: Categories]  --  fibrous=f, grooves=g, scaly=y, smooth=s
+
+Feature 03: cap-color
+    [Type: Categories]  --  brown=n, buff=b, cinnamon=c, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y
+
+Feature 04: bruises
+    [Type: Boolean]     --  true=1, false=0
+
+Feature 05: odor
+    [Type: Categories]  --  almond=a, anise=l, creosote=c, fishy=y, foul=f, musty=m, none=n, pungent=p, spicy=s
+
+Feature 06: gill-spacing
+    [Type: Categories]  --  close=c, crowded=w, distant=d
+
+Feature 07: gill-size
+    [Type: Number]
+
+Feature 08: gill-color
+    [Type: Categories]  --  black=k, brown=n, buff=b, chocolate=h, gray=g,  green=r, orange=o, pink=p, purple=u, red=e, white=w, yellow=y
+
+Feature 09: stalk-shape
+    [Type: Categories]  --  enlarging=e, tapering=t
+
+Feature 10: stalk-surface-above-ring
+    [Type: Categories]  --  fibrous=f, scaly=y, silky=k, smooth=s
+
+Feature 11: stalk-surface-below-ring
+    [Type: Categories]  --  fibrous=f, scaly=y, silky=k, smooth=s
+
+Feature 12: stalk-color-above-ring
+    [Type: Categories]  --  brown=n, buff=b, cinnamon=c, gray=g, orange=o, pink=p, red=e, white=w, yellow=y
+
+Feature 13: stalk-color-below-ring
+    [Type: Categories]  --  brown=n, buff=b, cinnamon=c, gray=g, orange=o, pink=p, red=e, white=w, yellow=y
+
+Feature 14: veil-type
+    [Type: Categories]  --  partial=p, universal=u
+
+Feature 15: veil-color
+    [Type: Categories]  --  brown=n, orange=o, white=w, yellow=y
+
+Feature 16: ring-number
+    [Type: Number]
+
+Feature 17: ring-type
+    [Type: Categories]  --  cobwebby=c, evanescent=e, flaring=f, large=l, none=n, pendant=p, sheathing=s, zone=z
+
+Feature 18: spore-print-color
+    [Type: Categories]  --  black=k, brown=n, buff=b, chocolate=h, green=r, orange=o, purple=u, white=w, yellow=y
+
+Feature 19: population
+    [Type: Categories]  --  abundant=a, clustered=c, numerous=n, scattered=s, several=v, solitary=y
+
+Feature 20: habitat
+    [Type: Categories]  --  habitat: grasses=g, leaves=l, meadows=m, paths=p, urban=u, waste=w, woods=d
